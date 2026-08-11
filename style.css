@@ -1,7 +1,34 @@
 *{
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
-.nav{
-    text-align: center;
+.backimg{
+    background-image: url(img/scandinavian-interior-mockup-wall-decal.png);
+    height: 700px;
+}
+
+.myCard{
+    border-radius: 10px;
+    background-color: #FFF3E3;
+}
+
+.myCard h2{
+    color: #B88E2F;
+}
+
+.buyBtn{
+padding-top: 12px;
+padding-right: 45px;
+padding-bottom: 12px;
+padding-left: 45px;
+border-radius: 0px;
+color: white;
+background-color: #B88E2F;
+}
+
+.myImg{
+    width: 381px;
+    height: 480px;
 }
