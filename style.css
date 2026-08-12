@@ -32,3 +32,35 @@ background-color: #B88E2F;
     width: 381px;
     height: 480px;
 }
+
+.btnShow{
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-right: 45px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    border: 2px solid #B88E2F;
+    color: #B88E2F;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.two{
+    background-color: #FCF8F3;
+}
+
+/* .colum{
+    margin-top: 60px;
+} */
+
+.innerPeace{
+    background-color: white;
+    opacity: 0.5;
+}
+
+.smallBox{
+    background-color: #B88E2F;
+    width: 60px;
+    height: 50px;
+}
