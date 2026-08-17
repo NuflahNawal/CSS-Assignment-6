@@ -7,11 +7,30 @@
 .backimg{
     background-image: url(img/scandinavian-interior-mockup-wall-decal.png);
     height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media only screen and (min-width: 300px) {
+    .backimg{
+        background-image:
+            url(img/scandinavian-interior-mockup-wall-decal.png);
+    }
+}
+
+.Card{
+    position: absolute;
+    right: 50px;
+    bottom: 200px;
+    z-index: 1;
 }
 
 .myCard{
     border-radius: 10px;
     background-color: #FFF3E3;
+    
 }
 
 .myCard h2{
@@ -50,17 +69,40 @@ background-color: #B88E2F;
     background-color: #FCF8F3;
 }
 
-/* .colum{
-    margin-top: 60px;
-} */
-
-.innerPeace{
-    background-color: white;
-    opacity: 0.5;
+.badRoom{
+    position: relative;
 }
 
-.smallBox{
-    background-color: #B88E2F;
-    width: 60px;
-    height: 50px;
+.fontSize{
+    font-size: 1rem;
+}
+
+.interiorImg{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.End1{
+    margin-top: 210px;
+}
+
+.End2{
+    margin-top: 130px;
+}
+
+.fontClr{
+    color: #9F9F9F;
+}
+
+.Email{
+    width: 230px;
+    border: none;
+    border-bottom: 2px black solid;
+}
+
+.button{
+    border-bottom: 2px black solid;
+    border-radius: none;
 }
