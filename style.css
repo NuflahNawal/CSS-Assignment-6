@@ -105,25 +105,6 @@ background-color: #B88E2F;
     border-radius: none;
 }
 
-                            /* Dark Mode CSS */
-body {
-    background-color: rgb(254, 253, 253);
-    color: black;
-}
-.mode {
-    margin: 10px;
-    font-size: 20px;
-}
-
-body.dark {
-    background-color: black;
-    color: white;
-}
-
-.fontLight {
-    color: white !important;
-}
-
 .i {
     font-size: 25px;
 }
