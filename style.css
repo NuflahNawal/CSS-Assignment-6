@@ -1,5 +1,4 @@
 *{
-    color: black;
     margin: 0;
     padding: 0;
 }
@@ -30,7 +29,6 @@
 .myCard{
     border-radius: 10px;
     background-color: #FFF3E3;
-    
 }
 
 .myCard h2{
@@ -105,4 +103,31 @@ background-color: #B88E2F;
 .button{
     border-bottom: 2px black solid;
     border-radius: none;
+}
+
+                            /* Dark Mode CSS */
+body {
+    background-color: rgb(254, 253, 253);
+    color: black;
+}
+.mode {
+    margin: 10px;
+    font-size: 20px;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+.fontLight {
+    color: white !important;
+}
+
+.i {
+    font-size: 25px;
+}
+
+i:hover{
+    cursor: pointer;
 }

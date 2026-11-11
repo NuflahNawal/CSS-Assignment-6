@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Furniro</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b3614e4fbc.js"></script>    
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
 <nav class="navbar navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#"> <img src="img/Meubel House_Logos-05.png" alt=""> Furniro</a>
@@ -17,23 +19,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav gap-5 mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-center active" aria-current="page" href="#">Home</a>
+          <p class="nav-link text-center active color" aria-current="page" href="#">Home</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center active" href="#">Shop</a>
+          <p class="nav-link text-center active color" href="#">Shop</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center active" href="#">About</a>
+          <p class="nav-link text-center active color" href="#">About</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center active" href="#">Contact</a>
+          <p class="nav-link text-center active color" href="#">Contact</p>
         </li>
       </ul>
       
-      <img class="ms-auto mx-4" src="img/mdi_account-alert-outline.png" alt="">
-      <img class="mx-4" src="img/akar-icons_search.png" alt="">
-      <img class="ms-4" src="img/akar-icons_heart.png" alt="">
-      <img class="ms-4" src="img/ant-design_shopping-cart-outlined.png" alt="">
+      <i class="fa-solid fa-circle-exclamation ms-4 align-center i"></i>
+      <i class="fa-solid fa-magnifying-glass ms-4 align-center i"></i>
+      <i class="fa-regular fa-heart ms-4 align-center i"></i>
+      <i class="fa-solid fa-cart-shopping ms-4 align-center i"></i>
+       <i class="fa-solid fa-circle-half-stroke mode" onclick="changeMode(this)"></i>
     </div>
   </div>
 </nav>
@@ -44,7 +47,7 @@
       <div class="card-body myCard p-5">
         <h6 class="card-subtitle mb-2 text-body-secondary pt-3">New Arrival</h6>
         <h2 class="card-title mb-3 fw-bold">Discover Our <br> New Collection</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+        <p class="card-text para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
         <a href="#" class="btn buyBtn pt-2">Buy Now</a>
       </div>
     </div>
@@ -269,7 +272,7 @@
     <div class="row my-5">
       <div class="col-12 text-center col-lg-4">
         <h3 class="fw-bold mx-5 mb-5">Furniro.</h3>
-        <p class="mx-5 mt-4 fontClr">400 University Drive Suite 200 Coral <br> Gables,<br>FL 33134 USA</p>
+        <p class="mx-5 mt-4 fontClr para">400 University Drive Suite 200 Coral <br> Gables,<br>FL 33134 USA</p>
       </div>
 
       <div class="col-6 text-center col-lg-2">
@@ -303,7 +306,7 @@
         <button class="btn button">SUBSCRIBE</button>
       </div>
       <hr class="mt-4">
-      <p class="my-4">2023 furino. All rights reverved</p>
+      <p class="my-4 para">2023 furino. All rights reverved</p>
     </div>
   </div>
 </div>
@@ -311,5 +314,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>
